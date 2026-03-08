@@ -18,7 +18,7 @@ cd verl-tool-internvl/verl-tool
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 
-### Step 3: Verify verl Version
+### Step 3: Verify Verl Version
 
 ```bash
 cd verl-tool-internvl/verl-tool
@@ -35,14 +35,14 @@ If not on this version, switch to it:
 git checkout 8e0b9bd9
 ```
 
-### Step 4: Install verl Dependencies
+### Step 4: Install Verl Dependencies
 
 ```bash
 cd verl
 pip install -r requirements.txt
 ```
 
-### Step 5: Install verl and verl-tool
+### Step 5: Install Verl and Verl-tool
 
 ```bash
 # Install verl (in verl directory)
@@ -79,4 +79,15 @@ print('✅ verl-tool-internvl environment is ready!')
 ```
 
 
-# 🛠️ Tool environment setup
+# 🛠️ Tool Environment Setup
+All tool environment configs are located in the `environment_setting/` directory. To set up a tool environment, run:
+```bash
+conda env create -f environment_setting/.yaml
+```
+
+For example, to set up ChartMoE:
+```bash
+conda env create -f environment_setting/chartmoe_env.yaml
+conda activate chartmoe
+```
+```
