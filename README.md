@@ -1,6 +1,6 @@
 # 📖verl-tool-internvl
 
-verl-tool environment adapted for InternVL training.
+verl-tool environment adapted for InternVL online GRPO with tool RL training.
 
 ## ⚙️ Installation
 
