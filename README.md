@@ -90,4 +90,3 @@ For example, to set up ChartMoE:
 conda env create -f environment_setting/chartmoe_env.yaml
 conda activate chartmoe
 ```
-```
