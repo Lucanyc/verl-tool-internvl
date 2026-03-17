@@ -90,3 +90,28 @@ For example, to set up ChartMoE:
 conda env create -f environment_setting/chartmoe_env.yaml
 conda activate chartmoe
 ```
+
+
+### Launch Tool Servers
+
+After setting up all tool environments, launch all tool servers at once:
+```bash
+bash launch_tool_servers.sh
+```
+
+Or launch a single tool server manually:
+```bash
+conda activate 
+cd verl-tool-internvl/verl-tool
+VERL_APPLY_QWEN25VL_PATCH=0 CUDA_VISIBLE_DEVICES= \
+    python -m verl_tool.servers.serve --host localhost --port  --tool_type 
+```
+
+| Tool | Conda Env | Port | GPU |
+|------|-----------|------|-----|
+| ChartMoE | chartmoe-env | 6658 | 8 |
+| EasyOCR | easyocr_env | 6758 | 7 |
+| MultiMath | multimath | 6582 | 7 |
+| GLLaVA | gllava | 8690 | 7 |
+| GroundingDINO | groundingdino | 6569 | 8 |
+| DiagramFormalizer | diagramformalizer | 7866 | 8 |
