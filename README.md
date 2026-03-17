@@ -102,7 +102,7 @@ bash launch_tool_servers.sh
 Or launch a single tool server manually:
 ```bash
 conda activate 
-cd verl-tool-internvl/verl-tool
+cd Online-GRPO-new/verl-tool
 VERL_APPLY_QWEN25VL_PATCH=0 CUDA_VISIBLE_DEVICES= \
     python -m verl_tool.servers.serve --host localhost --port  --tool_type 
 ```
