@@ -2,7 +2,7 @@
 # Launch all tool servers for verl-tool-internvl
 # Each tool requires its own conda environment and GPU
 
-VERL_TOOL_DIR="verl-tool-internvl/verl-tool"
+VERL_TOOL_DIR="Online-GRPO-new/verl-tool"
 
 echo "🚀 Launching tool servers..."
 
