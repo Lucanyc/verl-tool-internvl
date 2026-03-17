@@ -110,8 +110,8 @@ VERL_APPLY_QWEN25VL_PATCH=0 CUDA_VISIBLE_DEVICES= \
 | Tool | Conda Env | Port | GPU |
 |------|-----------|------|-----|
 | ChartMoE | chartmoe-env | 6658 | 8 |
-| EasyOCR | easyocr_env | 6758 | 7 |
-| MultiMath | multimath | 6582 | 7 |
-| GLLaVA | gllava | 8690 | 7 |
+| EasyOCR | easyocr_env | 6758 | 9 |
+| MultiMath | multimath | 6582 | 9 |
+| GLLaVA | gllava | 8690 | 9 |
 | GroundingDINO | groundingdino | 6569 | 8 |
 | DiagramFormalizer | diagramformalizer | 7866 | 8 |
