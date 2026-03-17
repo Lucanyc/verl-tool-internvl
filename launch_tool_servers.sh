@@ -1,5 +1,5 @@
 #!/bin/bash
-# Launch all tool servers for verl-tool-internvl
+# Launch all tool servers 
 # Each tool requires its own conda environment and GPU
 
 VERL_TOOL_DIR="Online-GRPO-new/verl-tool"
